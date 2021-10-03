@@ -1,0 +1,8 @@
+{
+  "name": "scryfall-api",
+  "version": "0.0.1",
+  "description": "An API for retrieving cards from Scryfall",
+  "main": "index.js",
+  "author": "Andrew Stacey",
+  "license": "MIT"
+}
