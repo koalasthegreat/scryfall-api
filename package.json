@@ -17,5 +17,10 @@
     "rxjs": "^7.3.1",
     "ts-mockito": "^2.6.1",
     "ts-node": "^10.2.1"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "watch": "tsc -p tsconfig.json -w",
+    "test": "mocha -r ts-node/register \"tests/**/*.spec.ts\""
   }
 }
